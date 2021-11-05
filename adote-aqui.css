@@ -1,0 +1,46 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+header {
+    background-color: orange;
+}
+
+header h1 {
+    width: 77%;
+}
+
+#container {
+    display: flex;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display:inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
