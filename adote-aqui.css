@@ -8,14 +8,19 @@ body,html{
 
 header {
     background-color: orange;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-    width: 77%;
+    width: 70%;
 }
 
-header >h1:hover {
-    font-size: 40px;
+#logo:hover {
+    font-size: 35px;
 }
 
 #container {
@@ -23,6 +28,15 @@ header >h1:hover {
     position: relative;
     width: 940px;
     margin: 0 auto;
+}
+
+.navbar {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    border-radius: 5px;
 }
 
 nav ul {
@@ -43,16 +57,30 @@ nav a {
 
 nav a:hover {
     color: blueviolet;
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 
-.navbar {
-    background-color: burlywood;
+main {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 40%;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 40px;
 }
+
+.imgs {
+    width: 20%;
+    height: 20%;
+    padding: 5px;
+}
+/*nav a:hover::after{
+    content: url(./imgs/clipart1493412.png);
+    display: block;
+    height: 5px;
+    width: 5px;
+}   
+*/
 
 @media (max-width:700px) {
     header h1 {
